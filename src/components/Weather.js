@@ -14,7 +14,7 @@ const [Result ,setResult] =useState([{}])
         })
     },[city])
 
-    if(city == '') {
+    if(city.trim().length == 0) {
         setCity("Cairo")
     }
     return (
