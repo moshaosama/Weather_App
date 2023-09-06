@@ -15,7 +15,7 @@ const [Result ,setResult] =useState([{}])
     },[city])
 
     if(city.trim().length == 0) {
-        setCity("Cairo")
+        setCity("Cairo");
     }
     return (
         <div className="bg-dark" id="All">
